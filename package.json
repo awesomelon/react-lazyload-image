@@ -25,7 +25,7 @@
     "image"
   ],
   "author": "j-ho",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/awesomelon/react-lazyload-image/issues"
   },

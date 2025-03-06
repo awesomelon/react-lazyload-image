@@ -35,6 +35,7 @@ function App() {
         placeholderSrc='https://example.com/small-placeholder.jpg'
         width={800}
         height={600}
+        threshold={0.5}
       />
     </div>
   );
@@ -47,9 +48,8 @@ export default App;
 
 | Prop           | Type   | Description                                           | Default             |
 | -------------- | ------ | ----------------------------------------------------- | ------------------- |
-| src            | string | The actual image URL to display                       | Required            |
 | placeholderSrc | string | Placeholder image to show before the main image loads | Transparent 1x1 GIF |
-| alt            | string | Alternative text for the image                        | ` `                 |
+| threshold      | number | Threshold for the IntersectionObserver (optional)     | 0.1                 |
 
 ## Browser Support
 

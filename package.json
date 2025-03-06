@@ -1,0 +1,51 @@
+{
+  "name": "@j-ho/react-lazyload-image",
+  "version": "0.0.1",
+  "description": "React Image Lazy Load Component",
+  "main": "dist/lazy-image.umd.js",
+  "module": "dist/lazy-image.es.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesomelon/react-lazyload-image.git"
+  },
+  "keywords": [
+    "react",
+    "lazy",
+    "image"
+  ],
+  "author": "j-ho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awesomelon/react-lazyload-image/issues"
+  },
+  "homepage": "https://github.com/awesomelon/react-lazyload-image#readme",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.2.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0",
+    "vite-plugin-dts": "^4.5.3",
+    "vitest": "^3.0.7"
+  }
+}

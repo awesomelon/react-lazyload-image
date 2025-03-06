@@ -4,12 +4,16 @@
   "description": "React Image Lazy Load Component",
   "main": "dist/lazy-image.umd.js",
   "module": "dist/lazy-image.es.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/LazyImage.d.ts",
   "type": "module",
   "scripts": {
     "build": "vite build",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build",
+    "publish:patch": "npm version patch && npm publish",
+    "publish:minor": "npm version minor && npm publish",
+    "publish:major": "npm version major && npm publish"
   },
   "repository": {
     "type": "git",

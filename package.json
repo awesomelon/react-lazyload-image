@@ -1,6 +1,6 @@
 {
   "name": "@j-ho/react-lazyload-image",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React Image Lazy Load Component",
   "main": "dist/lazy-image.umd.js",
   "module": "dist/lazy-image.es.js",
